@@ -1,0 +1,6 @@
+A small POC Spring project written for a code test, with Restful GET and POST API calls, persisting data using 
+PostgreSQL. It connects to a database called 'pg_demo2' and writes/reads to/from a table called 'notes', and 
+username and password have to be set in the properties file.
+
+It does not have a front-end, but can be tested with an API tester (e.g. Postman).  Were a front-end to be added, 
+this could readily be done in Spring Boot using the templating language Thymeleaf.
